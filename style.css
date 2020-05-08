@@ -1,0 +1,42 @@
+h1 {
+    color:purple;
+    font: bold 30px "Trebuchet MS";
+}
+
+button {
+    padding: 5px;
+    background-color: purple;
+    color: white;
+    font: 15px "Trebuchet MS";
+}
+
+table {
+    border-collapse: collapse;
+    font: 15px "Trebuchet MS";
+}
+th {
+    border: 1px solid black;
+    padding: 5px;
+    background-color: darkorchid;
+    color: white;
+    text-align: center;
+}
+td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}
+tr:nth-child(even){
+    background-color: lightgrey;
+}
+tr:hover {
+    background-color: lightyellow;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+}
+.description {
+    text-align: left;
+}
